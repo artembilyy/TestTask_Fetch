@@ -24,7 +24,6 @@ public actor ImageCache {
         do {
             return try Data(contentsOf: fileURL)
         } catch {
-            debugPrint(error)
             return nil
         }
     }

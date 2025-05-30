@@ -91,7 +91,11 @@ public final class RecipeListViewModel: ObservableObject {
         switch result {
         case .success(let filteredCollection):
             let items = filteredCollection.toPresentationSections()
-            uiState = .loaded(items)
+            if items.isEmpty {
+                uiState = .empty
+            } else {
+                uiState = .loaded(items)
+            }
         case .failure(let error):
             uiState = .error(error.userMessage)
         }

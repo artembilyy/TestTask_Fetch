@@ -45,9 +45,22 @@
 		ED3B23D12DE8C1BB00E2B38C /* Infrastructure */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Infrastructure; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EDD2E46C2DE976DF0044D32E /* Exceptions for "FetchRecipeTestTask" folder in "FetchRecipeTestTask" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = ED3B239E2DE8BECC00E2B38C /* FetchRecipeTestTask */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		ED3B23A12DE8BECC00E2B38C /* FetchRecipeTestTask */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EDD2E46C2DE976DF0044D32E /* Exceptions for "FetchRecipeTestTask" folder in "FetchRecipeTestTask" target */,
+			);
 			path = FetchRecipeTestTask;
 			sourceTree = "<group>";
 		};
@@ -452,6 +465,7 @@
 				DEVELOPMENT_TEAM = HDPNMRTNJ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FetchRecipeTestTask/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -487,6 +501,7 @@
 				DEVELOPMENT_TEAM = HDPNMRTNJ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FetchRecipeTestTask/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
