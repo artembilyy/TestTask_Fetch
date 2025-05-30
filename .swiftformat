@@ -1,0 +1,52 @@
+# Exclude checkout directories for common package managers
+--exclude .build
+
+# General
+--lineaftermarks false
+--self remove
+--patternlet inline
+--elseposition same-line
+--onelineforeach convert
+--semicolons never
+--trimwhitespace always
+--shortoptionals always
+--stripunusedargs closure-only
+--maxwidth 120
+
+# Wrap Arguments
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--closingparen balanced
+--callsiteparen balanced
+--wrapreturntype preserve  # Use preserve to maintain the original structure
+--wrapconditions before-first
+--wraptypealiases before-first
+
+# Wrap Attributes
+--funcattributes prev-line
+--computedvarattrs prev-line
+--storedvarattrs same-line
+--complexattrs prev-line
+--typeattributes prev-line
+--wrapeffects if-multiline
+
+# Disable specific rules
+--disable wrapMultilineStatementBraces
+--condassignment always
+
+# Options
+--enable acronyms
+--enable blankLinesBetweenImports
+--enable blockComments
+--enable docComments
+--enable isEmpty
+--enable markTypes
+--enable redundantProperty
+--enable sortSwitchCases
+--enable wrapConditionalBodies
+--enable wrapMultilineConditionalAssignment
+
+--ifdef no-indent
+
+--header \n {file} \n Copyright © FETCH {created}. \n All rights reserved. \n Created by Artem Bilyi. \n
