@@ -6,6 +6,20 @@ A SwiftUI recipe browsing app with hybrid architecture and SPM modularization.
 
 The app displays recipes from the provided API in a clean, modern interface with easy scalability:
 
+## App States & Screenshots
+
+Comprehensive state management with proper UI feedback for all user scenarios:
+
+| Launch Screen | Recipe List | Loading | Search Results |
+|---------------|-------------|---------|----------------|
+| <img src="https://github.com/user-attachments/assets/ef066cdf-d803-4d32-bb16-9ecb65966b2d" width="150"/> | <img src="https://github.com/user-attachments/assets/f69e7e7d-6116-45f1-bf47-8c6e562a63bc" width="150"/> | <img src="https://github.com/user-attachments/assets/769f8aed-dc2b-4d5c-a670-b743a098600c" width="150"/> | <img src="https://github.com/user-attachments/assets/7b137861-7c39-4309-99b6-cd26deb90b23" width="150"/> |
+| Custom branding | Alphabetical grouping | API loading | Real-time search |
+
+| Recipe Detail | Error State | Malformed Data | Search Empty |
+|---------------|-------------|----------------|--------------|
+| <img src="https://github.com/user-attachments/assets/9e42681a-c114-44c6-83e3-bd7f38c9e646" width="150"/> | <img src="https://github.com/user-attachments/assets/540663f5-4567-4382-9a70-4f4ff68938b3" width="150"/> | <img src="https://github.com/user-attachments/assets/b9f3e817-0a96-494a-bb8d-26e5de6e4d84" width="150"/> | <img src="https://github.com/user-attachments/assets/818f0cf9-f547-42f5-b304-1b35344e12ba" width="150"/> |
+| Detail Screen | Empty load, retry | Invalid API data | No results found |
+
 **Key Features:**
 - 📱 Modern SwiftUI interface with alphabetical grouping
 - 🔍 Real-time search by recipe name or cuisine type
